@@ -1,0 +1,23 @@
+[Default Applications]
+x-scheme-handler/http=brave
+x-scheme-handler/https=brave
+x-scheme-handler/chrome=brave
+text/html=brave
+application/x-extension-htm=brave
+application/x-extension-html=brave
+application/x-extension-shtml=brave
+application/xhtml+xml=brave
+application/x-extension-xhtml=brave
+application/x-extension-xht=brave
+x-scheme-handler/about=brave
+x-scheme-handler/unknown=brave
+x-scheme-handler/postman=Postman.desktop
+x-scheme-handler/mailto=brave
+
+[Added Associations]
+x-scheme-handler/http=brave;
+x-scheme-handler/https=brave;
+text/html=brave;
+application/pdf=brave;
+image/jpeg=brave;
+text/csv=brave;
