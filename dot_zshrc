@@ -120,4 +120,5 @@ export BEMENU_OPTS="--hf '#eeeeeeff' --hb '#005577EF' --nb '#222222EF' --ab '#22
 alias csv2json="python -c 'import csv, json, sys; print(json.dumps([dict(r) for r in csv.DictReader(sys.stdin)]))'"
 alias k="kubectl"
 alias m="kubectl --context=minikube"
+alias c="chezmoi"
 
