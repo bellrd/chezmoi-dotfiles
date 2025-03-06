@@ -4,7 +4,3 @@ format = 'on [⛵ $context](bold yellow) '
 disabled = false
 
 [kubernetes.context_aliases]
-'arn:aws:eks:ap-south-1:816738338930:cluster/preprod-eks' =  'tyke-preprod-eks'
-'arn:aws:eks:ap-south-1:816738338930:cluster/prod-eks' =  'tyke-prod-eks'
-'arn:aws:eks:ap-south-1:412381755655:cluster/preprod-eks' = 'amplio-preprod-eks'
-'arn:aws:eks:ap-south-1:412381755655:cluster/prod-eks' = 'amplio-prod-eks'
