@@ -32,12 +32,15 @@ return { -- Autoformat
       terraform = {
         prepend_args = { 'fmt' },
       },
-    },
 
+      black = {
+        prepend_args = { '--line-length', '79' },
+      },
+    },
     formatters_by_ft = {
       tex = { 'latexindent' },
       lua = { 'stylua' },
-      python = { 'black' },
+      python = { 'isrot', 'black' },
       javascript = { { 'prettierd', 'prettier' } },
       typescriptreact = { { 'prettierd', 'prettier' } },
       css = { { 'prettierd', 'prettier' } },
