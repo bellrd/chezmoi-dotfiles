@@ -40,7 +40,7 @@ return { -- Autoformat
     formatters_by_ft = {
       tex = { 'latexindent' },
       lua = { 'stylua' },
-      python = { 'isrot', 'black' },
+      python = { 'ruff_fix', 'ruff_format', 'ruff_organize_imports' },
       javascript = { { 'prettierd', 'prettier' } },
       typescriptreact = { { 'prettierd', 'prettier' } },
       css = { { 'prettierd', 'prettier' } },
